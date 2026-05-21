@@ -52,17 +52,17 @@ public class Driver {
         this.experienceYears = experienceYears; 
     }
 
-    public void setLicenseType(int licenseType) {
-        this.licenseType = licenseType; 
-    }
-
-    public void setAddress(int address) {
+    public void setAddress(String address) {
         this.address = address; 
     }
 
     public void setBirthdate(String birthdate) {
         this.birthdate = birthdate; 
     }
+    public void setLicenseType(String licenseType) {
+        this.licenseType = licenseType;
+    }
+
 
     //converting this object into a readable TXT formate for readability 
     @Override

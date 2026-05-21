@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 public class DriverValidator {
 
     //Implementing D1 - Validating Driver ID 
-    public static boolean isValidDriver(String id) {
+    public static boolean isValidDriverID(String id) {
         
         //muat be exactly 10 characters
         if(id.length() != 10 ){
@@ -13,7 +13,7 @@ public class DriverValidator {
         }
 
         //first 2 characters must be digits between 2 and 9
-        if(id.substring(0, 2).matches("[2-9]{2}")){
+        if(!id.substring(0, 2).matches("[2-9]{2}")){
             return false;
         }
 

@@ -35,7 +35,7 @@ public class BusValidator {
 
             String license = driver.getLicenseType();
 
-            if(!(license.equalsIgnoreCase("Heavy") || license.equalsIgnoreCase("PublicTransport"))){
+            if(!(license.equalsIgnoreCase("Heavy") || license.equalsIgnoreCase("Public Transport"))){
                 return false; 
             }
         }
@@ -49,7 +49,7 @@ public class BusValidator {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
         //changing localDate into dd-MM-yyyy format. 
-        localDate dob = LocalDate.parse(birthdate, formatter); 
+        LocalDate dob = LocalDate.parse(birthdate, formatter); 
 
         //gives difference between the bus driver birthdate and current local date to get the Age in years. 
         return Period.between(dob, LocalDate.now()).getYears(); 

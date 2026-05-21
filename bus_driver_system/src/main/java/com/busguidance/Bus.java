@@ -5,7 +5,7 @@ public class Bus {
     private String busID; //id of the bus 
     private int capacity ;  //capacity of the bus 
     private double fuelLevel;   
-    private String fuelType;    //desel, petrol, electric, hybrid etc.
+    private String fuelType;    //desel, petrol, Electricity, hybrid etc.
 
     //declaring constructor 
     public Bus(String busID, int capacity, double fuelLevel, String fuelType) {
