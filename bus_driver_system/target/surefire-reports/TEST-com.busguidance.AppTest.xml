@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.busguidance.AppTest" time="0.034" tests="38" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="26"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mac/Desktop/SoftwareFundamental_A4-/bus_driver_system/target/test-classes:/Users/mac/Desktop/SoftwareFundamental_A4-/bus_driver_system/target/classes:/Users/mac/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/mac/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/mac/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/mac/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mac/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/mac/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="26"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-26.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mac/Desktop/SoftwareFundamental_A4-/bus_driver_system/target/surefire/surefirebooter15796785506476633554.jar /Users/mac/Desktop/SoftwareFundamental_A4-/bus_driver_system/target/surefire 2026-06-04T17-54-05_801-jvmRun1 surefire426633403370769617tmp surefire_014032967556166424104tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mac/Desktop/SoftwareFundamental_A4-/bus_driver_system/target/test-classes:/Users/mac/Desktop/SoftwareFundamental_A4-/bus_driver_system/target/classes:/Users/mac/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/mac/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/mac/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/mac/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mac/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/mac/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/mac/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mac"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-03-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-26.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mac/Desktop/SoftwareFundamental_A4-/bus_driver_system"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/mac/Desktop/SoftwareFundamental_A4-/bus_driver_system/target/surefire/surefirebooter15796785506476633554.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="26+35-2893"/>
+    <property name="user.name" value="mac"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/mac/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/66/_vyh8pl522vcxl7yp_xs5l9m0000gn/T/"/>
+    <property name="java.version" value="26"/>
+    <property name="user.dir" value="/Users/mac/Desktop/SoftwareFundamental_A4-/bus_driver_system"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="26+35-2893"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="70.0"/>
+  </properties>
+  <testcase name="B4_cannotDriveEV" classname="com.busguidance.AppTest" time="0.014"/>
+  <testcase name="D3_checkNewinput" classname="com.busguidance.AppTest" time="0.001"/>
+  <testcase name="integration_InvalidDriver" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="B5_mediumLicenseDriverEV" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="D1_validDriverID" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="B3_ageOver50" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="B5_ptLicenseDriverHybrid" classname="com.busguidance.AppTest" time="0.001"/>
+  <testcase name="B2_invalidUpdatedcapacity" classname="com.busguidance.AppTest" time="0.001"/>
+  <testcase name="D4_updatedLicense" classname="com.busguidance.AppTest" time="0.001"/>
+  <testcase name="B2_sameUpdatedcapacity" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="integration_validBusStored" classname="com.busguidance.AppTest" time="0.001"/>
+  <testcase name="B4_driverEV" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="D1_invalidDriverID" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="integration_detailUpdates" classname="com.busguidance.AppTest" time="0.001"/>
+  <testcase name="integration_ValidIDStored" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="B2_verifyUpdatedcapacity" classname="com.busguidance.AppTest" time="0.001"/>
+  <testcase name="B1_invalidBusID" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="D5_DriverIDModified" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="D2_verifyAddress" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="integreation_driverCountUpdate" classname="com.busguidance.AppTest" time="0.001"/>
+  <testcase name="D2_missingVal" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="D3_verifyBirthday" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="D3_incorrectBD" classname="com.busguidance.AppTest" time="0.001"/>
+  <testcase name="integration_BusCountUpdate" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="B3_over50DriverSmallBus" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="D1_noSpecialChars" classname="com.busguidance.AppTest" time="0.001"/>
+  <testcase name="D5_DriverNameModified" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="D4_updatedType" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="D5_addressUpdate" classname="com.busguidance.AppTest" time="0.001"/>
+  <testcase name="B3_checkDriverAge" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="integration_BusUpdates" classname="com.busguidance.AppTest" time="0.001"/>
+  <testcase name="B1_verifyBusID" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="B1_duplicateBusID" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="B5_heavyLicenseDriveEV" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="D4_invalidUpdateLicense" classname="com.busguidance.AppTest" time="0.001"/>
+  <testcase name="integration_invalidBusStored" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="B4_over5Years" classname="com.busguidance.AppTest" time="0"/>
+  <testcase name="D2_incorrectAddress" classname="com.busguidance.AppTest" time="0"/>
+</testsuite>
